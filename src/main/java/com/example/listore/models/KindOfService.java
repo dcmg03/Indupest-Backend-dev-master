@@ -24,4 +24,7 @@ public class KindOfService extends GeneralModel{
     @ManyToOne
     @JoinColumn(name = "service_id")
     private Service service;
+
+
+
 }
