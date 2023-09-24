@@ -70,12 +70,13 @@ public class ListoreConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("https://grand-vacherin-3c5cd6.netlify.app")
+                .allowedOrigins("https://grand-vacherin-3c5cd6.netlify.app", "https://indupest-front.vercel.app")
                 .allowedMethods("PUT", "DELETE", "POST", "GET", "OPTIONS")
                 .allowedHeaders("Authorization", "Content-Type")
                 .allowCredentials(true)
                 .maxAge(3600);
     }
+
 
 
 }
