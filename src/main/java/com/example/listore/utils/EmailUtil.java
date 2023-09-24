@@ -70,7 +70,7 @@ public class EmailUtil {
      * @return un string con el codigo html para enviar al correo
      */
     public static String getUserRegisterTemplate(String token, String code) {
-        return "<h3>Completa tu registro en el siguiente <a href=\"https://grand-vacherin-3c5cd6.netlify.app/passwordChange?token="+token+"\"> enlace</a></h3> <h3>Tu código es: " + code + "</h3>";
+        return "<h3>Completa tu registro en el siguiente <a href=\"https://indupest-front.vercel.app/passwordChange?token="+token+"\"> enlace</a></h3> <h3>Tu código es: " + code + "</h3>";
     }
 
     /**
